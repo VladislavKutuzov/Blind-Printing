@@ -1,6 +1,6 @@
 body {
     font-family: 'Source Code Pro', monospace;
-    background: rgb(15, 15, 15);
+    background: #1e1e1e;
     color: white;
 }
 
@@ -23,19 +23,20 @@ body {
 .intro {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 100px;
 }
 
 .text__field {
     font-size: 1.4em;
     width: 70%;
     text-align: justify ;
+    color: rgba(255, 255, 255, 0.408);
 }
 
 /* Keyboard
 ================================= */
 .keyboard {
-    margin: 100px auto 0;
+    margin: 50px auto 0;
     border: 1px solid #fff;
     width: 832px;
     height: 260px;
@@ -43,7 +44,6 @@ body {
     padding: 5px;
     display: flex;
     flex-wrap: wrap;
-    background: #000;
 }
 
 .btn {
@@ -55,7 +55,7 @@ body {
     text-align: center;
     font-size: 12px;
     padding-top: 5px;
-    background: rgb(15, 15, 15);
+    background: rgb(34, 34, 34);
 
 
     -webkit-box-shadow: 0px 5px 50px 2px rgba(0, 0, 0, 0.25) inset;
@@ -64,116 +64,65 @@ body {
 
 }
 
+
+
 /* btn
 ==================================*/
 
+.green {
+    background: rgb(47, 255, 0);
+
+}
+
+.grey {
+    background: #4b4b4b;
+}
 
 .b1 {
-    background: #ff8000;
-}
-
-.b5 {
-    background: #3f3f3f;
-}
-
-.b6 {
-    background: #3f3f3f;
-}
-
-.b7 {
-    background: #3f3f3f;
-}
-
-.b8 {
-    background: #3f3f3f;
-}
-
-.b9 {
-    background: #3f3f3f;
-}
-
-.b10 {
-    background: #3f3f3f;
+    background: #ff6f00;
 }
 
 .b14 {
     width: 92px;
-    background: #3f3f3f;
-}
-
-.b15 {
-    background: #3f3f3f;
 }
 
 .b16 {
     width: 66px;
-    background: #3f3f3f;
 }
 
 .b29 {
     width: 66px;
-    background: #3f3f3f;
-}
-
-.b30 {
-    background: #3f3f3f;
 }
 
 .b31 {
     width: 85px;
-    background: #3f3f3f;
 }
 
 .b43 {
     width: 99px;
-    background: #3f3f3f;
-}
-
-.b44 {
-    background: #3f3f3f;
 }
 
 .b45 {
     width: 99px;
-    background: #3f3f3f;
-}
-
-.b58 {
-    background: #3f3f3f;
 }
 
 .b56 {
     width: 85px;
-    background: #3f3f3f;
 }
 
 .b60 {
     width: 50px;
-    background: #3f3f3f;
 }
 
 .b61 {
     width: 50px;
-    background: #3f3f3f;
 }
 
 .b62 {
     width: 50px;
-    background: #3f3f3f;
 }
 
 .b63 {
     width: 322px;
 }
 
-.b64 {
-    background: #3f3f3f;
-}
-
-.b65 {
-    background: #3f3f3f;
-}
-
-.b66 {
-    background: #3f3f3f;
-}
